@@ -1,12 +1,59 @@
-# React + Vite
+# 💡 AI Tip Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple **React + Vite + Tailwind** web app that generates daily tips using **OpenRouter’s GPT-3.5-Turbo API**.  
+Includes a smooth **typewriter effect**, clean UI, and secure `.env` API handling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- ✨ Generate AI-powered tips instantly  
+- 🎬 Typewriter effect for smooth text rendering  
+- 🎨 Modern & responsive UI with TailwindCSS  
+- 🔒 Secure API key management with `.env`  
+- ⚡ Built with React + Vite for speed & simplicity  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+- **React (Vite)** – frontend framework & bundler  
+- **TailwindCSS** – styling & layout  
+- **OpenRouter API (GPT-3.5-Turbo)** – AI tip generation  
+- **Typewriter effect** – animated text output  
+
+---
+
+## 📦 Installation & Setup
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/your-username/tip-generator.git
+   cd tip-generator
+2. Install dependencies
+- npm install
+3. Add environment variables
+Create a .env file in the root and add:
+
+- VITE_OPENROUTER_API_KEY=your_api_key_here
+
+4. Run the app locally
+
+- npm run dev
+
+## 🌍 Deployment
+
+[Live Demo](https://ai-quote-generator-react-tailwind.netlify.app/)
+
+## 📸 Preview
+
+![alt text](image.png)
+
+## 🔮 Roadmap
+
+ Add categories (productivity, health, learning, etc.)
+
+ Copy-to-clipboard button for tips
+
+ “Daily Lock” mode → one tip per day
+
+## 📜 License
+MIT License
